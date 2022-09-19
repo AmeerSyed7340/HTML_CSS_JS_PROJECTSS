@@ -18,6 +18,12 @@ h2{
     color: wheat;  
 }
 
+#msg{
+    font-size: 20PX;
+    text-align: center;
+    opacity: .8;
+}
+
 .clock{
     display: flex;
 }

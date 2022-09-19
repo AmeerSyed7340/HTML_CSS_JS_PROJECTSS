@@ -2,6 +2,7 @@ const hourEl = document.getElementById("hours")
 const minEl = document.getElementById("minutes")
 const secEl = document.getElementById("seconds")
 const ampmEl = document.getElementById("ampm")
+const msgEl = document.getElementById("msg");
 
 function updateClock(){
     let hour = new Date().getHours();
@@ -22,9 +23,17 @@ function updateClock(){
 
     sec = sec < 10 ? "0" + sec : sec
     secEl.innerText = sec;
+
+    if(ampm == "AM"){
+        msgEl.innerText = "Good Morning Ameer"
+    }
+    else{
+        msgEl.innerText = "Good Evening Ameer"
+    }
     ampmEl.innerText = ampm;
     setTimeout(() => {
         updateClock();
     }, 1000);
+    
 }
 updateClock();
