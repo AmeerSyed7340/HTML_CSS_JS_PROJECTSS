@@ -26,9 +26,11 @@ function updateClock(){
 
     if(ampm == "AM"){
         msgEl.innerText = "Good Morning Ameer"
+        document.body.style.backgroundImage = "url('https://images.unsplash.com/photo-1490682143684-14369e18dce8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80)";
     }
     else{
         msgEl.innerText = "Good Evening Ameer"
+        document.body.style.backgroundImage = "url('https://images.unsplash.com/photo-1492273840898-6102ad35701e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80')";
     }
     ampmEl.innerText = ampm;
     setTimeout(() => {
