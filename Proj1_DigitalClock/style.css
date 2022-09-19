@@ -7,13 +7,15 @@ body{
     height: 100vh;
     justify-content: center;
     background: url("https://images.unsplash.com/photo-1492273840898-6102ad35701e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 h2{
     text-transform: uppercase;
     letter-spacing: 4px;
     font-size: 14px;
     text-align: center;  
-    color: white;  
+    color: wheat;  
 }
 
 .clock{
